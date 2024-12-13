@@ -1,0 +1,63 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f406;
+    background-image: url('galactic.jpg'); /* Replace with your image URL */
+
+}
+
+header {
+    background: #a4461b;
+    color: #010101;
+    padding: 20px;
+    text-align: center;
+}
+
+main {
+    padding: 20px;
+}
+
+h2 {
+    color: #99d8ff;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+li {
+    background: #d18787;
+    margin: 23px 0;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+a {
+    text-decoration:hotpink;
+    color: #35424a;
+}
+
+a:hover {
+    color: #1e1412;
+    transition: ease-in-out;
+}
+
+footer {
+    text-align: center;
+    padding: 10px;
+    background: #a4461b;
+    
+    position: relative;
+    bottom: 0;
+    width: 100%;
+}
+
+p2{
+    color: antiquewhite;
+}
+li:hover{
+    transition: ease-in;
+}

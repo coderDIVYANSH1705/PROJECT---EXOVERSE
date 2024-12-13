@@ -1,0 +1,127 @@
+body, html {
+    margin: 0;
+    padding: 0;
+    font-family: 'Arial', sans-serif;
+    background-color: #c4c1da;
+    color: white;
+    background-image: url(galactic.jpg);
+}
+
+.app {
+    display: flex;
+    height: 100vh;
+}
+
+.server-list {
+    background-color: #0e1a2d;
+    width: 70px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 10px;
+}
+
+.server-icon {
+    background-color: lavender;
+    width: 40px;
+    height: 40px;
+    margin: 10Px 0;
+    border-radius: 40%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 24px;
+    cursor: pointer;
+    
+}
+
+.channel-list {
+    background-color:rgb(117, 81, 81);
+    width: 250px;
+    padding: 20px;
+}
+
+.channel-list h3 {
+    margin-top: 0;
+}
+
+.channel {
+    margin: 10px 0;
+    padding: 10px;
+    background-color: #18243e;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.channel:hover {
+    background-color: black;
+}
+
+.chat-section {
+    background-color: #030c1d;
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    background-image: url(galactic.jpg);
+}
+
+.chat-header {
+    background-color: #1b233a;
+    padding: 15px;
+}
+
+.chat-messages {
+    flex: 1;
+    padding: 20px;
+    overflow-y: scroll;
+    background-color: #0c2f42;
+}
+
+.chat-input {
+    background-color: #2f3136;
+    
+    padding: 15px;
+    display: flex;
+    align-items: center;
+}
+
+.chat-input input {
+    flex: 1;
+    padding: 10px;
+    background-color:black ;
+    border: none;
+    border-radius: 5px;
+    color: white;
+}
+
+.chat-input button {
+    margin-left: 10px;
+    padding: 10px 20px;
+    background-color: #5865f2;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+.user-section {
+    background-color: rgb(117, 81, 81);
+    width: 200px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    padding: 20px;
+}
+
+.user-info p {
+    margin: 0;
+    color:rgb(7, 32, 32);
+}
+
+#logout-button {
+    background-color: #5f3333;
+    border: none;
+    padding: 10px;
+    
+    cursor: pointer;
+    border-radius: 5px;
+}
